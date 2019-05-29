@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VHCard.vue renders blue header background 1`] = `
+<div class="Card Card--block Card--blue">
+  <div class="Card-default"></div>
+  <div class="Card-header"></div>
+  <div class="Card-content">
+    <div class="Card-title"></div>
+  </div>
+  <div class="Card-action"></div>
+</div>
+`;
+
+exports[`VHCard.vue renders default VHCard 1`] = `
+<div class="Card">
+  <div class="Card-default"></div>
+  <div class="Card-header"></div>
+  <div class="Card-content">
+    <div class="Card-title"></div>
+  </div>
+  <div class="Card-action"></div>
+</div>
+`;
+
+exports[`VHCard.vue renders red header background 1`] = `
+<div class="Card Card--red">
+  <div class="Card-default"></div>
+  <div class="Card-header"></div>
+  <div class="Card-content">
+    <div class="Card-title"></div>
+  </div>
+  <div class="Card-action"></div>
+</div>
+`;

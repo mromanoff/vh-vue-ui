@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VHProgressBar.vue renders default VHProgressBar 1`] = `
+<div role="presentation" class="Progress Progress--medium">
+  <div class="Progress-track">
+    <div class="Progress-bar Progress-bar--orange" style="width: 0%;"></div>
+  </div>
+</div>
+`;
+
+exports[`VHProgressBar.vue renders modified VHProgressBar blue large 1`] = `
+<div role="presentation" class="Progress Progress--large">
+  <div class="Progress-track">
+    <div class="Progress-bar Progress-bar--blue" style="width: 0%;"></div>
+  </div>
+</div>
+`;
+
+exports[`VHProgressBar.vue renders modified VHProgressBar blue small 1`] = `
+<div role="presentation" class="Progress Progress--medium">
+  <div class="Progress-track">
+    <div class="Progress-bar Progress-bar--blue" style="width: 1%;"></div>
+  </div>
+</div>
+`;
+
+exports[`VHProgressBar.vue renders modified VHProgressBar green small 1`] = `
+<div role="presentation" class="Progress Progress--small">
+  <div class="Progress-track">
+    <div class="Progress-bar Progress-bar--green" style="width: 10%;"></div>
+  </div>
+</div>
+`;

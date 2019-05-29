@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VHVideo.vue renders default VHVideo 1`] = `
+<div class="VHVideo">
+  <div class="VHVideo-player">
+    <div class="VHVideo-preview">
+      <div class="VHVideo-previewImageContainer"><img src="https://i.ytimg.com/vi//hqdefault.jpg" class="VHVideo-previewImage"></div>
+      <div class="VHVideo-previewPlayButtonContainer">
+        <vh-icon-stub color="white" name="playCircle" class="VHVideo-previewPlayButton"></vh-icon-stub>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`VHVideo.vue renders modified VHVideo 1`] = `
+<div class="VHVideo">
+  <div class="VHVideo-player">
+    <div class="VHVideo-preview">
+      <div class="VHVideo-previewImageContainer"><img src="https://i.ytimg.com/vi/Test ID/mqdefault.jpg" class="VHVideo-previewImage"></div>
+      <div class="VHVideo-previewPlayButtonContainer">
+        <vh-icon-stub color="white" name="playCircle" class="VHVideo-previewPlayButton"></vh-icon-stub>
+      </div>
+    </div>
+  </div>
+</div>
+`;

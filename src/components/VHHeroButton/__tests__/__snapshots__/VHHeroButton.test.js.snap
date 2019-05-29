@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VHHeroButton.vue renders default button 1`] = `<button class="VHHeroButton"></button>`;
+
+exports[`renders disabled button 1`] = `<button disabled="disabled" class="VHHeroButton"></button>`;

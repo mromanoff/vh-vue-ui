@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VHIcon.vue renders modified VHIcon 1`] = `
+<svg xmlns="http://www.w3.org/2000/svg" role="presentation" class="Icon Icon--large Icon--red">
+  <use xlink:href="/icons-sprite.svg#Test Name"></use>
+</svg>
+`;
+
+exports[`VhIcon.vue renders default VhIcon 1`] = `
+<svg xmlns="http://www.w3.org/2000/svg" role="presentation" class="Icon Icon--medium Icon--default">
+  <title>Test Name icon</title>
+  <use xlink:href="/icons-sprite.svg#Test Name"></use>
+</svg>
+`;
+
+exports[`VhIcon.vue renders modified VhIcon 1`] = `
+<svg xmlns="http://www.w3.org/2000/svg" role="presentation" class="Icon Icon--large Icon--red">
+  <title>Test Name icon</title>
+  <use xlink:href="/icons-sprite.svg#Test Name"></use>
+</svg>
+`;

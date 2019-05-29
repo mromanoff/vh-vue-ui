@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VHList.vue renders default VHList 1`] = `<div class="VHList"></div>`;
+
+exports[`VHList.vue renders modified VHList a 1`] = `<a class="VHList"></a>`;
+
+exports[`VHList.vue renders modified VHList ol  1`] = `<ol class="VHList VHList--horizontal"></ol>`;
+
+exports[`VHList.vue renders modified VHList ul 1`] = `<ul class="VHList"></ul>`;
