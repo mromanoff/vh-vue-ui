@@ -28,7 +28,7 @@
 
 <script>
 export default {
-  name: 'VHAccordionItem',
+  name: 'VhAccordionItem',
   props: {
     bordered: {
       type: Boolean,

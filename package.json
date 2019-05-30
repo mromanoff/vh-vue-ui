@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "vh-vue-ui",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "VehicleHistory Vue UI Components Library",
   "main": "dist/vh-vue-ui.ssr.js",
   "module": "dist/vh-vue-ui.esm.js",

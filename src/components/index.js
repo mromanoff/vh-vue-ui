@@ -1,6 +1,6 @@
 /* eslint-disable import/prefer-default-export */
 export { VHAccordion, VHAccordionItem} from './VHAccordion';
-export { default as VHAvatar} from './VHAvatar';
+export { default as VhAvatar} from './VhAvatar';
 export { default as VHBadge} from './VHBadge';
 export { default as VHButton} from './VHButton';
 export { default as VHCard} from './VHCard';
