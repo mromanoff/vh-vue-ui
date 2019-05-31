@@ -1,5 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`VHGroup.vue renders default VHGroup 1`] = `<div class="Group" style="justify-items: stretch;"></div>`;
-
-exports[`VHGroup.vue renders modified VHGroup 1`] = `<div class="Group Group-columnsMobile2--fraction Group-columnsTablet4--fraction Group-columnsDesktop4--fraction" style="grid-template-columns: repeat(4, 1fr); justify-items: stretch;"></div>`;

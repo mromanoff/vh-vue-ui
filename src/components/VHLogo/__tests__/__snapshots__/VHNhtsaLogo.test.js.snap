@@ -1,3 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`VHNhtsaLogo.vue renders default VHNhtsaLogo 1`] = `<div><img src="https://www.vehiclehistory.com/images/nhtsa.png" alt="NHTSA Logo" class="NhtsaLogo"></div>`;

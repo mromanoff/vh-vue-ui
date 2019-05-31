@@ -1,5 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`VHFloatingButton.vue renders default button 1`] = `<button class="VHFloatingButton VHFloatingButton--medium">0</button>`;
-
-exports[`VHFloatingButton.vue renders small button 1`] = `<button class="VHFloatingButton VHFloatingButton--small">0</button>`;

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VhNotification.vue renders Error VhNotification 1`] = `
+<div class="VhNotification VhNotification--error">
+  <vh-icon-stub name="error" size="large" color="darkRed" class="VhNotification-svg"></vh-icon-stub>
+  <div class="VhNotification-message">A simple error notification message.</div>
+</div>
+`;
+
+exports[`VhNotification.vue renders Success VhNotification 1`] = `
+<div class="VhNotification VhNotification--success">
+  <vh-icon-stub name="error" size="large" color="darkGreen" class="VhNotification-svg"></vh-icon-stub>
+  <div class="VhNotification-message">A simple error notification message.</div>
+</div>
+`;
+
+exports[`VhNotification.vue renders Warning VhNotification 1`] = `
+<div class="VhNotification VhNotification--warning">
+  <vh-icon-stub name="error" size="large" color="darkYellow" class="VhNotification-svg"></vh-icon-stub>
+  <div class="VhNotification-message">A simple error notification message.</div>
+</div>
+`;
+
+exports[`VhNotification.vue renders default Info VhNotification 1`] = `
+<div class="VhNotification VhNotification--info">
+  <vh-icon-stub name="error" size="large" color="darkBlue" class="VhNotification-svg"></vh-icon-stub>
+  <div class="VhNotification-message">A simple error notification message.</div>
+</div>
+`;
+
+exports[`VhNotification.vue renders dissmissible Info VhNotification 1`] = `
+<div class="VhNotification VhNotification--info">
+  <vh-icon-stub name="error" size="large" color="darkBlue" class="VhNotification-svg"></vh-icon-stub>
+  <div class="VhNotification-message">A simple error notification message.</div><button class="VhNotification-closeButton">
+    <vh-icon-stub name="close" size="medium" color="darkBlue"></vh-icon-stub>
+  </button>
+</div>
+`;

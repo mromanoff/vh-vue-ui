@@ -1,8 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`VHContainer.vue renders default VHContainer 1`] = `
-<div class="Container">
-  <div class="Container-main"></div>
-  <aside class="Container-aside u-sm-hidden u-md-hidden"></aside>
-</div>
-`;

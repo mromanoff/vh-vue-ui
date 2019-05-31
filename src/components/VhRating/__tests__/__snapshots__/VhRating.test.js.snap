@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VhRating.vue renders default VhRating 1`] = `
+<div class="VhRating">
+  <div class="VhRating-iconContainer">
+    <vh-icon-stub size="medium" name="starOutline" color="orange"></vh-icon-stub>
+  </div>
+  <div class="VhRating-iconContainer">
+    <vh-icon-stub size="medium" name="starOutline" color="orange"></vh-icon-stub>
+  </div>
+  <div class="VhRating-iconContainer">
+    <vh-icon-stub size="medium" name="starOutline" color="orange"></vh-icon-stub>
+  </div>
+  <div class="VhRating-iconContainer">
+    <vh-icon-stub size="medium" name="starOutline" color="orange"></vh-icon-stub>
+  </div>
+  <div class="VhRating-iconContainer">
+    <vh-icon-stub size="medium" name="starOutline" color="orange"></vh-icon-stub>
+  </div>
+</div>
+`;
+
+exports[`VhRating.vue renders modified VhRating 1`] = `
+<div class="VhRating VhRating--readonly">
+  <div class="VhRating-iconContainer">
+    <vh-icon-stub size="large" name="circle" color="red"></vh-icon-stub>
+  </div>
+  <div class="VhRating-iconContainer">
+    <vh-icon-stub size="large" name="circle" color="red"></vh-icon-stub>
+  </div>
+  <div class="VhRating-iconContainer">
+    <vh-icon-stub size="large" name="circle" color="red"></vh-icon-stub>
+  </div>
+  <div class="VhRating-iconContainer">
+    <vh-icon-stub size="large" name="circle" color="red"></vh-icon-stub>
+  </div>
+  <div class="VhRating-iconContainer">
+    <vh-icon-stub size="large" name="circle" color="red"></vh-icon-stub>
+  </div>
+</div>
+`;

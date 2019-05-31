@@ -1,6 +1,6 @@
 <template>
   <div
-    class="Avatar"
+    class="VhAvatar"
     :class="computedClasses"
     v-on="$listeners"
   >
@@ -36,8 +36,8 @@ export default {
   computed: {
     computedClasses() {
       return {
-        [`Avatar--${this.size}`]: this.size,
-        [`Avatar--${this.color}`]: this.color,
+        [`VhAvatar--${this.size}`]: this.size,
+        [`VhAvatar--${this.color}`]: this.color,
       };
     },
   },
@@ -45,7 +45,7 @@ export default {
 </script>
 
 <style scoped>
-.Avatar {
+.VhAvatar {
   align-items: center;
   border-radius: 50%;
   display: inline-flex;
@@ -61,45 +61,45 @@ export default {
 }
 
 /* Avatar sizes */
-.Avatar--small {
-  height: var(--avatar-size--small);
-  width: var(--avatar-size--small);
+.VhAvatar--small {
+  height: var(--VhAvatar-size--small);
+  width: var(--VhAvatar-size--small);
   font-size: 12px !important;
 }
 
-.Avatar--medium {
-  height: var(--avatar-size--medium);
-  width: var(--avatar-size--medium);
+.VhAvatar--medium {
+  height: var(--VhAvatar-size--medium);
+  width: var(--VhAvatar-size--medium);
   font-size: 16px !important;
 }
 
-.Avatar--large {
-  height: var(--avatar-size--large);
-  width: var(--avatar-size--large);
+.VhAvatar--large {
+  height: var(--VhAvatar-size--large);
+  width: var(--VhAvatar-size--large);
   font-size: 24px !important;
 }
 
 /* Avatar colors */
-.Avatar--grey {
+.VhAvatar--grey {
   background-color: var(--color--grey500);
 }
 
-.Avatar--yellow {
+.VhAvatar--yellow {
   background-color: var(--color--yellow500);
 }
-.Avatar--orange {
+.VhAvatar--orange {
   background-color: var(--color--orange500);
 }
 
-.Avatar--green {
+.VhAvatar--green {
   background-color: var(--color--green500);
 }
 
-.Avatar--red {
+.VhAvatar--red {
   background-color: var(--color--red500);
 }
 
-.Avatar--blue {
+.VhAvatar--blue {
   background-color: var(--color--blue500);
 }
 </style>

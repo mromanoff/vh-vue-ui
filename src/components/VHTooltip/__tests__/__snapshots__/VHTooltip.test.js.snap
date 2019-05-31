@@ -1,8 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`VHTooltip.vue renders default VHTooltip 1`] = `
-<v-popover-stub placement="bottom" delay="0" offset="0" trigger="manual" container="body" popperoptions="[object Object]" popoverclass="vue-popover-theme" popoverbaseclass="tooltip popover" popoverinnerclass="tooltip-inner popover-inner" popoverwrapperclass="wrapper" popoverarrowclass="tooltip-arrow popover-arrow" autohide="true" handleresize="true" class="VHTooltip">
-  <vh-icon-stub name="helpCircleOutline" color="grey"></vh-icon-stub>
-  <div></div>
-</v-popover-stub>
-`;

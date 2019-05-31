@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VhColorSwatch.vue renders Active VhColorSwatch 1`] = `<button type="button" class="ColorSwatch ColorSwatch--active ColorSwatch--medium"><span class="ColorSwatch-inner ColorSwatch-inner--medium" style="background-color: rgb(255, 203, 89);"></span></button>`;
+
+exports[`VhColorSwatch.vue renders Disabled VhColorSwatch 1`] = `<button type="button" class="ColorSwatch ColorSwatch--disabled ColorSwatch--medium"><span class="ColorSwatch-inner ColorSwatch-inner--medium" style="background-color: rgb(255, 203, 89);"></span></button>`;
+
+exports[`VhColorSwatch.vue renders Small VhColorSwatch 1`] = `<button type="button" class="ColorSwatch ColorSwatch--small"><span class="ColorSwatch-inner ColorSwatch-inner--small" style="background-color: rgb(255, 203, 89);"></span></button>`;
+
+exports[`VhColorSwatch.vue renders default VhColorSwatch 1`] = `<button type="button" class="ColorSwatch ColorSwatch--medium"><span class="ColorSwatch-inner ColorSwatch-inner--medium" style="background-color: rgb(255, 203, 89);"></span></button>`;

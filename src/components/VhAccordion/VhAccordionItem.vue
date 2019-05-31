@@ -1,10 +1,10 @@
 <template>
   <div
-    class="VHAccordionItem"
+    class="VhAccordionItem"
     :class="itemClasses"
   >
     <div
-      class="VHAccordionItem-header"
+      class="VhAccordionItem-header"
       :class="stateClasses"
       @click="handleClick"
     >
@@ -16,7 +16,7 @@
       <slot name="header" />
     </div>
     <div
-      class="VHAccordionItem-body"
+      class="VhAccordionItem-body"
       :class="stateClasses"
     >
       <div v-if="!lazy || (lazy && hasBeenOpened)">
@@ -57,8 +57,8 @@ export default {
   computed: {
     itemClasses() {
       return {
-        'VHAccordionItem--bordered': this.bordered,
-        [`VHAccordionItem--${this.size}`]: this.size,
+        'VhAccordionItem--bordered': this.bordered,
+        [`VhAccordionItem--${this.size}`]: this.size,
       };
     },
     stateClasses() {
@@ -91,11 +91,11 @@ export default {
 </script>
 
 <style scoped>
-.VHAccordionItem {
+.VhAccordionItem {
   /* BLOCK */
 }
 
-.VHAccordionItem-header {
+.VhAccordionItem-header {
   min-height: 3.75rem;
   cursor: pointer;
   display: flex;
@@ -123,7 +123,7 @@ export default {
   }
 }
 
-.VHAccordionItem-header.is-open {
+.VhAccordionItem-header.is-open {
   & .Icon {
     transform: rotate(180deg);
   }
@@ -134,7 +134,7 @@ export default {
   }
 }
 
-.VHAccordionItem-body {
+.VhAccordionItem-body {
   z-index: calc(var(--z-index--low) - 1);
   height: 1px;
   overflow: hidden;
@@ -143,7 +143,7 @@ export default {
   transition-duration: 200ms;
 }
 
-.VHAccordionItem-body.is-open {
+.VhAccordionItem-body.is-open {
   height: 100%;
   opacity: 1;
   overflow: visible;
@@ -153,8 +153,8 @@ export default {
 
 /* MODIFIERS */
 
-.VHAccordionItem--small {
-  & .VHAccordionItem-header {
+.VhAccordionItem--small {
+  & .VhAccordionItem-header {
     cursor: pointer;
     display: flex;
     justify-items: center;
@@ -180,18 +180,18 @@ export default {
     }
   }
 
-  & .VHAccordionItem-body {
+  & .VhAccordionItem-body {
     margin-top: -2px;
   }
 
-  & .VHAccordionItem-body.is-open {
+  & .VhAccordionItem-body.is-open {
     padding-top: var(--space--medium);
     border-bottom: none;
   }
 }
 
-.VHAccordionItem--bordered {
-  & .VHAccordionItem-header {
+.VhAccordionItem--bordered {
+  & .VhAccordionItem-header {
     border: 1px solid var(--color--grey300);
   }
 }

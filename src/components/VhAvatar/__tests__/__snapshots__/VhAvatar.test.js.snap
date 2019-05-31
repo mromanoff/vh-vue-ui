@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VhAvatar.vue renders black avatar size large 1`] = `<div class="Avatar Avatar--large Avatar--blue"></div>`;
+
+exports[`VhAvatar.vue renders default VhAvatar 1`] = `<div class="Avatar Avatar--medium Avatar--grey"></div>`;
+
+exports[`VhAvatar.vue renders red avata size small 1`] = `<div class="Avatar Avatar--small Avatar--red"></div>`;

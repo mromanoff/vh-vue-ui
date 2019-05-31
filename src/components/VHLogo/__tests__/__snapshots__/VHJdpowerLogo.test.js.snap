@@ -1,3 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`VHJdpowerLogo.vue renders default VHJdpowerLogo 1`] = `<div><img src="https://www.vehiclehistory.com/images/jd-power.png" alt="J.D. Power Logo" class="JdpowerLogo"></div>`;

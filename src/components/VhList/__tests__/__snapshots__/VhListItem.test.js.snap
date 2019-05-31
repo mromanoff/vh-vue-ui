@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VhListItem.vue renders default VhListItem 1`] = `
+<div class="VhListItem">
+  <div class="VhListItem-icon">
+    <!---->
+  </div>
+  <div class="VhListItem-rightContent"></div>
+</div>
+`;
+
+exports[`VhListItem.vue renders modified VhListItem li 1`] = `
+<li class="VhListItem">
+  <div class="VhListItem-icon">
+    <vh-icon-stub name="car"></vh-icon-stub>
+  </div>
+  <div class="VhListItem-rightContent"></div>
+</li>
+`;
+
+exports[`VhListItem.vue renders modified VhListItem nav  1`] = `
+<nav class="VhListItem">
+  <div class="VhListItem-icon">
+    <vh-icon-stub name="car"></vh-icon-stub>
+  </div>
+  <div class="VhListItem-rightContent"></div>
+</nav>
+`;

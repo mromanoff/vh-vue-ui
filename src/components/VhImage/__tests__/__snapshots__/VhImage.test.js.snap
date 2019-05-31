@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VhImage.vue renders default VhImage 1`] = `
+<div class="VhImage">
+  <div class="VhImage-imageContainer"><img src="http:testdomain.vehiclehistory.image" alt="dummy url image" class="VhImage-image"></div>
+</div>
+`;
+
+exports[`VhImage.vue renders modified VhImage 1`] = `
+<div class="VhImage VhImage--padded VhImage--setWidth">
+  <div class="VhImage-imageContainer" style="width: 100px; max-width: 100px;"><img src="http:testdomain.vehiclehistory.image" alt="dummy url image" class="VhImage-image"></div>
+</div>
+`;

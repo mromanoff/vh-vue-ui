@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`VHAccordion.vue renders default accordion 1`] = `<div class="VHAccordion"></div>`;
-
-exports[`VHAccordion.vue renders multiple accordion 1`] = `<div class="VHAccordion" expandmode="single"></div>`;
-
-exports[`VHAccordion.vue renders single accordion 1`] = `<div class="VHAccordion" expandmode="single"></div>`;

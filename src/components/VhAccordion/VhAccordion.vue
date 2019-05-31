@@ -1,5 +1,5 @@
 <template>
-  <div class="VHAccordion">
+  <div class="VhAccordion">
     <slot />
   </div>
 </template>
@@ -47,7 +47,7 @@ export default {
 </script>
 
 <style scoped>
-.VHAccordion {
+.VhAccordion {
   position: relative;
 }
 </style>

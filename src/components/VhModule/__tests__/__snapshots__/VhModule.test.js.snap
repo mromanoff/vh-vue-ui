@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VhModule.vue renders VhModule with anchor 1`] = `<div id="testId" class="VhModule VhModule--medium VhModule--anchor"></div>`;
+
+exports[`VhModule.vue renders default VhModule 1`] = `<div class="VhModule VhModule--medium"></div>`;
+
+exports[`VhModule.vue renders large VhModule 1`] = `<div class="VhModule VhModule--large"></div>`;
+
+exports[`VhModule.vue renders small VhModule 1`] = `<div class="VhModule VhModule--small"></div>`;

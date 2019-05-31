@@ -1,5 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`VHBadge.vue renders default VHBadge 1`] = `<div class="VHBadgeContainer"><span></span> <span class="VHBadge VHBadge--blue"></span></div>`;
-
-exports[`VHBadge.vue renders white VHBadge 1`] = `<div class="VHBadgeContainer"><span></span> <span class="VHBadge VHBadge--white"></span></div>`;

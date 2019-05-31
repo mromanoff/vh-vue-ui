@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VhNavigationButton.vue renders current button 1`] = `
+<button class="VhNavigationButton VhNavigationButton--current"><span class="VhNavigationButton-iconLeft"></span> <span class="VhNavigationButton-label">Test VhNavigationButton</span>
+  <!----></button>
+`;
+
+exports[`VhNavigationButton.vue renders default button 1`] = `<button class="VhNavigationButton"><span class="VhNavigationButton-iconLeft"></span> <span class="VhNavigationButton-label">Test VhNavigationButton</span> <span class="VhNavigationButton-iconRight"><vh-icon-stub name="chevronRight" size="medium" color="darkGrey"></vh-icon-stub></span></button>`;
+
+exports[`VhNavigationButton.vue renders disabled button 1`] = `<button class="VhNavigationButton VhNavigationButton--disabled"><span class="VhNavigationButton-iconLeft"></span> <span class="VhNavigationButton-label">Test VhNavigationButton</span> <span class="VhNavigationButton-iconRight"><vh-icon-stub name="chevronRight" size="medium" color="darkGrey"></vh-icon-stub></span></button>`;
+
+exports[`VhNavigationButton.vue renders static button 1`] = `
+<button class="VhNavigationButton VhNavigationButton--static"><span class="VhNavigationButton-iconLeft"></span> <span class="VhNavigationButton-label">Test VhNavigationButton</span>
+  <!----></button>
+`;

@@ -1,4 +1,4 @@
-import VHAccordion from './VhAccordion.vue';
-import VhAccordionItem from './VhAccordionItem.vue';
+import VhAccordion from './VhAccordion';
+import VhAccordionItem from './VhAccordionItem';
 
 export { VhAccordion, VhAccordionItem };
