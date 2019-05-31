@@ -1,4 +1,4 @@
-import VhIcon from './VhIcon';
+import VhIcon from './VhIcon.vue';
 
 export default VhIcon;
 export { VhIcon };

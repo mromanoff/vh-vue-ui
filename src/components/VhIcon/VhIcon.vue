@@ -5,7 +5,7 @@
     :class="computedClasses"
     role="presentation"
   >
-    <use v-bind="{ 'xlink:href': `/icons-sprite.svg#${name}` }" />
+    <use v-bind="{ 'xlink:href': `#${name}` }" />
   </svg>
 </template>
 

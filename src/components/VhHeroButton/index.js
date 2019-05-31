@@ -1,3 +1,3 @@
-import VhHeroButton from './VhHeroButton';
+import VhHeroButton from './VhHeroButton.vue';
 
 export default VhHeroButton;

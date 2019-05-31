@@ -1,3 +1,3 @@
-import VhContainer from './VhContainer';
+import VhContainer from './VhContainer.vue';
 
 export default VhContainer;

@@ -1,4 +1,4 @@
-import VhBadge from './VhBadge';
+import VhBadge from './VhBadge.vue';
 
 export default VhBadge;
 export { VhBadge };

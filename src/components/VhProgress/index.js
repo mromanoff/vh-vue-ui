@@ -1,4 +1,4 @@
-import VhProgressBar from './VhProgressBar';
-import VhProgressDonut from './VhProgressDonut';
+import VhProgressBar from './VhProgressBar.vue';
+import VhProgressDonut from './VhProgressDonut.vue';
 
 export { VhProgressBar, VhProgressDonut };

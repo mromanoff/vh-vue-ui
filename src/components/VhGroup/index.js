@@ -1,3 +1,3 @@
-import VhGroup from './VhGroup';
+import VhGroup from './VhGroup.vue';
 
 export default VhGroup;

@@ -1,3 +1,3 @@
-import VhModule from './VhModule';
+import VhModule from './VhModule.vue';
 
 export default VhModule;

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VhKbbLogo.vue renders default VhKbbLogo 1`] = `<div><img src="https://www.vehiclehistory.com/images/logo_kbb_vert_110x201.png" alt="KBB Logo" class="KbbLogo"></div>`;

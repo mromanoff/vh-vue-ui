@@ -1,4 +1,4 @@
-import VhGallery from './VhGallery';
+import VhGallery from './VhGallery.vue';
 
 export { VhGallery };
 export default VhGallery;

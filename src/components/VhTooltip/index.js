@@ -1,3 +1,3 @@
-import VhTooltip from './VhTooltip';
+import VhTooltip from './VhTooltip.vue';
 
 export default VhTooltip;

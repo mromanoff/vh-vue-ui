@@ -1,3 +1,3 @@
-import VhNavigationButton from './VhNavigationButton';
+import VhNavigationButton from './VhNavigationButton.vue';
 
 export default VhNavigationButton;

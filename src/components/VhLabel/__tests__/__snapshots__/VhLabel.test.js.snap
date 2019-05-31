@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VhLabel.vue renders Black VhLabel 1`] = `<div class="VhLabel VhLabel--black">Test Black VhLabel</div>`;
+
+exports[`VhLabel.vue renders Blue VhLabel 1`] = `<div class="VhLabel VhLabel--blue">Test Blue VhLabel</div>`;
+
+exports[`VhLabel.vue renders Green VhLabel 1`] = `<div class="VhLabel VhLabel--green">Test Green VhLabel</div>`;
+
+exports[`VhLabel.vue renders default VhLabel 1`] = `<div class="VhLabel VhLabel--grey">Test VhLabel</div>`;

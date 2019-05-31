@@ -1,3 +1,3 @@
-import VhVideo from './VhVideo';
+import VhVideo from './VhVideo.vue';
 
 export default VhVideo;
