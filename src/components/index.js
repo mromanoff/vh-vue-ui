@@ -1,4 +1,5 @@
 /* eslint-disable import/prefer-default-export */
+export { default as VhSvgSprite} from './VhSvgSprite';
 export { VhAccordion, VhAccordionItem} from './VhAccordion';
 export { default as VhAvatar} from './VhAvatar';
 export { default as VhBadge} from './VhBadge';
@@ -7,19 +8,19 @@ export { default as VhCard} from './VhCard';
 export { default as VhChip} from './VhChip';
 // export { default as VhColorSwatch} from './VhColorSwatch';
 export { default as VhContainer} from './VhContainer';
-// export { default as VhFloatingButton} from './VhFloatingButton';
+export { default as VhFloatingButton} from './VhFloatingButton';
 // export { VhForm, VhInput, VhSelect, VhTextarea} from './VhForm';
 // export { default as VhGallery} from './VhGallery';
 export { default as VhGroup} from './VhGroup';
 export { default as VhHeroButton} from './VhHeroButton';
 export { default as VhIcon} from './VhIcon';
 export { default as VhImage} from './VhImage';
-// export { default as VhLabel} from './VhLabel';
+export { default as VhLabel} from './VhLabel';
 export { VhList, VhListItem } from './VhList';
 export { VhLogo, VhLogoMini, VhKbbLogo, VhIihsLogo, VhNhtsaLogo, VhJdpowerLogo } from './VhLogo';
 export { default as VhModule} from './VhModule';
 export { default as VhNavigationButton} from './VhNavigationButton';
-// export { default as VhNotification} from './VhNotification';
+export { default as VhNotification} from './VhNotification';
 export { VhProgressBar, VhProgressDonut} from './VhProgress';
 export { default as VhRating} from './VhRating';
 // export { default as VhSlider} from './VhSlider';

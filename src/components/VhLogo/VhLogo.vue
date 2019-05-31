@@ -63,9 +63,6 @@ export default {
   height: auto;
   display: block;
   flex: 0 0 auto;
-}
-
-.VhLogo > path {
   fill: var(--color--white);
 }
 </style>

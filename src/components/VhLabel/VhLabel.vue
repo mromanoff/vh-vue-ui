@@ -1,7 +1,18 @@
-<script type="text/jsx">
+<template>
+  <div
+    class="VhLabel"
+    :class="{
+      [`VhLabel--${color}`]: color,
+      [`VhLabel--${size}`]: size,
+    }"
+  >
+    <slot />
+  </div>
+</template>
+
+<script>
 export default {
   name: 'VhLabel',
-  functional: true,
   props: {
     /**
      *  One of these colors: grey, green, blue, black
@@ -13,21 +24,6 @@ export default {
         return value.match(/(grey|green|blue|black)/);
       },
     },
-  },
-
-  render(h, { props, data, slots }) {
-    const classes = {
-      VhLabel: true,
-      [data.staticClass]: data.staticClass,
-      [`VhLabel--${props.color}`]: props.color,
-      [`VhLabel--${props.size}`]: props.size,
-    };
-
-    return (
-      <div class={classes} {...data}>
-        {slots().default}
-      </div>
-    );
   },
 };
 </script>

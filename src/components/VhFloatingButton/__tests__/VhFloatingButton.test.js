@@ -4,21 +4,15 @@ import VhFloatingButton from '../VhFloatingButton.vue';
 describe('VhFloatingButton.vue', () => {
   let wrapper;
 
-  // TEST functional component with passing props: https://vue-test-utils.vuejs.org/api/options.html#context
-
   beforeEach(() => {
     wrapper = shallowMount(VhFloatingButton, {
-      context: {
-        props: { size: 'medium' },
-      },
       slots: {
-        default: '0',
+        default: 'Floating Button Label',
       },
     });
   });
 
   it('renders default button', () => {
-    expect(wrapper.isFunctionalComponent).toBe(true);
     expect(wrapper.is('button')).toBe(true);
     expect(wrapper.classes()).toStrictEqual(['VhFloatingButton', 'VhFloatingButton--medium']);
     expect(wrapper).toMatchSnapshot();
@@ -26,11 +20,11 @@ describe('VhFloatingButton.vue', () => {
 
   it('renders small button', () => {
     wrapper = shallowMount(VhFloatingButton, {
-      context: {
-        props: { size: 'small' },
+      propsData: {
+        size: 'small',
       },
       slots: {
-        default: '0',
+        default: 'Floating Button Label',
       },
     });
     expect(wrapper.is('button')).toBe(true);

@@ -1,7 +1,33 @@
-<script type="text/jsx">
+<template>
+  <div
+    class="VhNotification"
+    :class="computedClasses"
+  >
+    <vh-icon
+      class="VhNotification-svg"
+      name="error"
+      :color="computedIconColor"
+      size="large"
+    />
+    <div class="VhNotification-message">
+      <slot />
+    </div>
+    <button
+      v-if="dismissible"
+      class="VhNotification-closeButton"
+    >
+      <vh-icon
+        name="close"
+        size="medium"
+        :color="computedIconColor"
+      />
+    </button>
+  </div>
+</template>
+
+<script>
 export default {
   name: 'VhNotification',
-  functional: true,
   props: {
     /**
      * Notification Type: info, warning, success, error.
@@ -29,50 +55,46 @@ export default {
     },
   },
 
-  render(h, { props, data, listeners, slots }) {
-    if (!props.value) return null;
+  computed: {
+    computedClasses() {
+      return {
+        'VhNotification--info': this.type === 'info',
+        'VhNotification--warning': this.type === 'warning',
+        'VhNotification--success': this.type === 'success',
+        'VhNotification--error': this.type === 'error',
+      };
+    },
 
-    const classes = {
-      VhNotification: true,
-      [`VhNotification--${props.type}`]: props.type,
-    };
-    let color;
-    switch (props.type) {
-      case 'info':
-        color = 'darkBlue';
-        break;
+    computedIconColor() {
+      let color;
+      switch (this.type) {
+        case 'info':
+          color = 'lightBlue';
+          break;
 
-      case 'warning':
-        color = 'darkYellow';
-        break;
+        case 'warning':
+          color = 'yellow';
+          break;
 
-      case 'success':
-        color = 'darkGreen';
-        break;
+        case 'success':
+          color = 'green';
+          break;
 
-      case 'error':
-        color = 'darkRed';
-        break;
-      default:
-        console.warn("Notification type doesn't exist " + props.type + '.');
-    }
+        case 'error':
+          color = 'red';
+          break;
+        default:
+          console.warn("Notification type doesn't exist " + this.type + '.');
+      }
 
-    return (
-      <div class={classes} {...data}>
-        <vh-icon class="VhNotification-svg" name="error" size="large" color={color} />
-        <div class="VhNotification-message">{slots().default}</div>
-        {props.dismissible && (
-          <button
-            class="VhNotification-closeButton"
-            onClick={() => {
-              listeners.input(false);
-            }}
-          >
-            <vh-icon name="close" size="medium" color={color} />
-          </button>
-        )}
-      </div>
-    );
+      return color;
+    },
+  },
+  methods: {
+    onClick() {
+      /* TOTO: please verify this implementation */
+      this.$emit('remove', this);
+    },
   },
 };
 </script>

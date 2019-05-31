@@ -3,13 +3,10 @@ import VhLabel from '../VhLabel.vue';
 
 describe('VhLabel.vue', () => {
   let wrapper;
-
-  // TEST functional component with passing props: https://vue-test-utils.vuejs.org/api/options.html#context
-
   beforeEach(() => {
     wrapper = shallowMount(VhLabel, {
-      context: {
-        props: { size: 'medium', color: 'grey' },
+      propsData: {
+        color: 'grey',
       },
       slots: {
         default: 'Test VhLabel',
@@ -18,7 +15,6 @@ describe('VhLabel.vue', () => {
   });
 
   it('renders default VhLabel', () => {
-    expect(wrapper.isFunctionalComponent).toBe(true);
     expect(wrapper.is('div')).toBe(true);
     expect(wrapper.classes()).toStrictEqual(['VhLabel', 'VhLabel--grey']);
     expect(wrapper).toMatchSnapshot();
@@ -26,8 +22,8 @@ describe('VhLabel.vue', () => {
 
   it('renders Green VhLabel', () => {
     wrapper = shallowMount(VhLabel, {
-      context: {
-        props: { color: 'green' },
+      propsData: {
+        color: 'green',
       },
       slots: {
         default: 'Test Green VhLabel',
@@ -39,8 +35,8 @@ describe('VhLabel.vue', () => {
 
   it('renders Blue VhLabel', () => {
     wrapper = shallowMount(VhLabel, {
-      context: {
-        props: { color: 'blue' },
+      propsData: {
+        color: 'blue',
       },
       slots: {
         default: 'Test Blue VhLabel',
@@ -52,8 +48,8 @@ describe('VhLabel.vue', () => {
 
   it('renders Black VhLabel', () => {
     wrapper = shallowMount(VhLabel, {
-      context: {
-        props: { color: 'black' },
+      propsData: {
+        color: 'black',
       },
       slots: {
         default: 'Test Black VhLabel',

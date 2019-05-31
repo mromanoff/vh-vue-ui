@@ -1,7 +1,21 @@
-<script type="text/jsx">
+<template>
+  <button
+    class="VhFloatingButton"
+    :class="{
+      [`VhFloatingButton--${size}`]: size,
+    }"
+    type="button"
+    :to="nuxt && href"
+    v-bind="attrs"
+    v-on="$listeners"
+  >
+    <slot />
+  </button>
+</template>
+
+<script>
 export default {
   name: 'VhFloatingButton',
-  functional: true,
   props: {
     /**
      * Button will become either "small" or "medium"
@@ -13,26 +27,6 @@ export default {
         return value.match(/(small|medium)/);
       },
     },
-  },
-
-  render(h, { props, data, listeners, slots }) {
-    const classes = {
-      VhFloatingButton: true,
-      [data.staticClass]: data.staticClass,
-      [`VhFloatingButton--${props.size}`]: props.size,
-    };
-
-    return (
-      <button
-        class={classes}
-        {...data}
-        href={!props.nuxt && props.href ? props.href : null}
-        to={props.nuxt && props.href}
-        type={props.nuxt && props.href ? props.type : null}
-      >
-        {slots().default}
-      </button>
-    );
   },
 };
 </script>
