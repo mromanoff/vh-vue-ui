@@ -23,7 +23,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .VhContainer {
   display: flex;
   flex-direction: column;
@@ -31,6 +31,12 @@ export default {
   margin-right: auto;
   padding-left: var(--space--medium);
   padding-right: var(--space--medium);
+
+  @media (min-width:768px) and (max-width:1199px) {
+    flex-direction: row;
+    width: var(--breakpoint--large);
+    max-width: 100%;
+  }
 }
 
 .VhContainer-main {
@@ -56,7 +62,7 @@ export default {
   margin-top: var(--space--xLarge);
 }
 
-@media (--viewport--medium) {
+@media (min-width:768px)  {
   .VhContainer-main {
     overflow: hidden;
     margin-bottom: 0;
@@ -64,12 +70,12 @@ export default {
   }
 }
 
-@media (--viewport--medium-up) {
-  .VhContainer {
-    flex-direction: row;
-    width: var(--breakpoint--large);
-    max-width: 100%;
-  }
+@media (min-width:768px) and (max-width:1199px) {
+  /*.VhContainer {*/
+  /*  flex-direction: row;*/
+  /*  width: var(--breakpoint--large);*/
+  /*  max-width: 100%;*/
+  /*}*/
   .VhContainer-main + .VhContainer-aside {
     margin-left: calc(var(--space--medium) * 2);
     margin-bottom: 0;

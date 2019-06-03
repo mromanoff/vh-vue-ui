@@ -112,7 +112,7 @@ export default {
   display: grid;
 }
 
-@media (--viewport--small) {
+@media (min-width:0) and (max-width:767px) {
   .Group-columnsMobile1--maxContent {
     grid-template-columns: repeat(1, max-content) !important;
   }
@@ -146,7 +146,7 @@ export default {
   }
 }
 
-@media (--viewport--medium) {
+@media (min-width:768px) {
   .Group-columnsTablet1--maxContent {
     grid-template-columns: repeat(1, max-content) !important;
   }
@@ -179,7 +179,7 @@ export default {
   }
 }
 
-@media (--viewport--large) {
+@media (min-width:1200px) {
   .Group-columnsDesktop1--maxContent {
     grid-template-columns: repeat(1, max-content) !important;
   }

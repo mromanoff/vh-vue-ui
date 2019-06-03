@@ -21,7 +21,7 @@ const baseConfig = {
       css: true,
       template: {
         isProduction: true
-      }
+      },
     },
     postVue: [buble()]
   }

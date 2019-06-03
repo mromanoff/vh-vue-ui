@@ -1,0 +1,168 @@
+:root {
+  /**
+   * Header
+   */
+  --Header-color: var(--color--white);
+  --Header-backgroundColor: var(--color--blue700);
+  --Header-linkColor: var(--link-color);
+  --Header-onHover-linkColor: var(--link-color--onHover);
+  --Header--mobile-height: 48px;
+  --Header--desktop-height: 48px;
+
+  /**
+ * Footer
+ */
+  --Footer-color: var(--color--white);
+  --Footer-backgroundColor: var(--color--blue700);
+  --Footer-link: var(--color--white);
+  --Footer-onHover-link: var(--color--white);
+  --Footer-fontSize: var(--font-size--small);
+  --Footer--mobile-height: 52px;
+  --Footer--desktop-height: 58px;
+
+  /**
+  * VhContainer
+  */
+  --aside--width: 300px;
+
+  /*
+  * Module
+   */
+  --VhModule--mobile-margin-small: 1rem;
+  --VhModule--desktop-margin-small: 2rem;
+  --VhModule--mobile-margin-medium: 2rem;
+  --VhModule--desktop-margin-medium: 4rem;
+  --VhModule--mobile-margin-large: 4rem;
+  --VhModule--desktop-margin-large: 6rem;
+
+  /**
+   * Form
+   */
+  --Form-label-color: var(--color--grey900);
+  --Form-label-font-size: var(--font-size--small);
+  --Form-label-font-weight: normal;
+
+  --Form-input-border-color: var(--color--grey400);
+  --Form-input-border-radius: 0;
+  --Form-input-background: transparent;
+  --Form-input-color: currentcolor;
+  --Form-input-font-size: var(--font-size);
+  --Form-input-padding: var(--space--medium);
+  --Form-input-height: 56px;
+  --Form-input-disabled: 0.55;
+
+  --Form--spaced-margin: var(--space--small);
+  --Form-state-invalid-border-color: var(--color--red500);
+  --Form-state-invalid-label-color: var(--color--red500);
+  --Form-state-invalid-message-color: var(--color--red500);
+  --Form-select-arrow: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE2LjYgOC42TDEyIDEzLjIgNy40IDguNiA2IDEwbDYgNiA2LTYtMS40LTEuNHoiIGZpbGw9IiM3ODhhOWEiLz48cGF0aCBkPSJNMCAwaDI0djI0SDBWMHoiIGZpbGw9Im5vbmUiLz48L3N2Zz4=);
+  --Form-select-arrow--white: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDI0IDI0IiB4bWw6c3BhY2U9InByZXNlcnZlIj48cGF0aCBmaWxsPSIjZmZmZmZmIiBkPSJNNy40MSw4LjU5TDEyLDEzLjE3bDQuNTktNC41OEwxOCwxMGwtNiw2bC02LTZMNy40MSw4LjU5eiIvPjxwYXRoIGZpbGw9Im5vbmUiIGQ9Ik0wLDBoMjR2MjRIMFYweiIvPjwvc3ZnPg==);
+  --Form-select-arrow-width: 36px;
+  --Form-select-arrow-width--small: 24px;
+  --Form-select-arrow--small: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4gICAgICAgICAgICAgICAgPHBhdGggZD0iTTcgMTBsNSA1IDUtNXoiPjwvcGF0aD4gICAgICAgICAgICAgIDwvc3ZnPg==);
+  --Form-select-arrow--smallWhite: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI0IDI0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj4uc3Qwe2ZpbGw6I0ZGRkZGRjt9PC9zdHlsZT48cGF0aCBjbGFzcz0ic3QwIiBkPSJNNywxMGw1LDVsNS01SDd6Ii8+PC9zdmc+);
+  --Form-select-arrow--smallBlue: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIyLjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojMjk3OEJFO30KPC9zdHlsZT4KPHBhdGggY2xhc3M9InN0MCIgZD0iTTcsMTBsNSw1bDUtNUg3eiIvPgo8L3N2Zz4K');
+
+  /**
+   * Icons
+   */
+  --VhIcon-size--xLarge: 48px;
+  --VhIcon-size--large: 40px;
+  --VhIcon-size--medium: 32px;
+  --VhIcon-size--small: 24px;
+  --VhIcon-size--xSmall: 16px;
+
+  /**
+  * Avatar
+   */
+  --VhAvatar-size--xSmall: 16px;
+  --VhAvatar-size--small: 24px;
+  --VhAvatar-size--medium: 36px;
+  --VhAvatar-size--large: 48px;
+
+  /**
+* Hero | Home Page
+ */
+  --HeroButton-offset: 30px;
+  --Hero-mobile--height: 494px;
+  --Hero-tablet--height: 580px;
+  --Hero-desktop--height: 580px;
+  --Hero-background-image-url--small: url('https://www.vehiclehistory.com/images/hero-small.jpg');
+  --Hero-background-image-url--medium: url('https://www.vehiclehistory.com/images/hero-medium.jpg');
+  --Hero-background-image-url--large: url('https://www.vehiclehistory.com/images/hero-large.jpg');
+  --Hero-container--maxWidth: 820px;
+
+  /**
+* Hero Button
+*/
+  --VhHeroButton-backgroundColor: var(--color--orange700);
+  --VhHeroButton-backgroundColor--hover: var(--color--orange500);
+  --VhHeroButton-borderColor: var(--color--orange700);
+  --VhHeroButton-borderWidth: 1px;
+  --VhHeroButton-color: var(--color--white);
+  --VhHeroButton-height: 56px;
+
+  /**
+*  Navigation Button
+*/
+  --VhNavigationButton-borderColor: var(--color--grey300);
+  --VhNavigationButton-borderWidth: 1px;
+  --VhNavigationButton-borderRadius: 0;
+  --VhNavigationButton-color: var(--color--blue700);
+  --VhNavigationButton--disabled-opacity: 0.4;
+
+  /**
+  * Buttons
+   */
+
+  --VhButton-borderColor: transparent;
+  --VhButton-borderWidth: 1px;
+  --VhButton-borderRadius: 0;
+  --VhButton-color: var(--color--blue800);
+  --VhButton--disabled-opacity: 0.4;
+
+  /* Primary button */
+  --VhButton--primary-borderColor: var(--color--blue700);
+  --VhButton--primary-borderWidth: 1px;
+  --VhButton--primary-color: var(--color--white);
+  --VhButton--primary-backgroundColor: var(--color--blue700);
+  --VhButton--primary-backgroundColor-hover: var(--color--blue900);
+  --VhButton--primary-backgroundColor-active: var(--color--blue800);
+
+  /* Secondary button */
+  --VhButton--secondary-borderColor: var(--color--blue700);
+  --VhButton--secondary-borderWidth: 1px;
+  --VhButton--secondary-color: var(--color--blue800);
+  --VhButton--secondary-backgroundColor: transparent;
+
+  /* Text button */
+  --VhButton--text-borderColor: transperent;
+  --VhButton--text-borderWidth: 1px;
+  --VhButton--text-color: var(--color--blue800);
+  --VhButton--text-backgroundColor: transperent;
+
+  /**
+* Floating Button
+ */
+  --VhFloatingButton-borderRadius: 50%;
+  --VhFloatingButton-color: var(--text-color);
+  --VhFloatingButton-backgroundColor: var(--color--white);
+  --VhFloatingButton-backgroundColor-hover: var(--color--grey200);
+  --VhFloatingButton-backgroundColor-active: var(--color--grey400);
+
+  /**
+    Card
+   */
+  --VhCard-borderColor: var(--color--grey300);
+  --VhCard-color: var(--color--grey700);
+  --VhCard-hoverEnterTransition: 0.3s ease-out;
+  --VhCard-hoverExitTransition: 0.3s ease-in;
+  --VhCard-clickTransition: 0.15s ease-in;
+
+  /**
+    Chip
+ */
+  --VhChip-borderRadius: 32px;
+  --VhChip-color: var(--color--blue700);
+  --VhChip--disabled-opacity: 0.4;
+}
